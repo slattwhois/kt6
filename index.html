@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Техника — магазин электроники</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="brand">
+                <span class="brand-mark">Т</span>
+                <span>ТЕХНИКА</span>
+            </div>
+            <nav class="menu">
+                <a href="#catalog">Каталог</a>
+                <a href="#offers">Акции</a>
+                <a href="#about">О магазине</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </header>
+
+        <aside class="sidebar">
+            <h2>Фильтры</h2>
+            <div class="filter-group">
+                <h3>Категории</h3>
+                <a href="#catalog">Смартфоны</a>
+                <a href="#catalog">Ноутбуки</a>
+                <a href="#catalog">Наушники</a>
+                <a href="#catalog">Аксессуары</a>
+            </div>
+            <div class="filter-group">
+                <h3>Цена</h3>
+                <p>До 10 000 ₽</p>
+                <p>10 000–50 000 ₽</p>
+                <p>От 50 000 ₽</p>
+            </div>
+            <div class="filter-group">
+                <h3>Наличие</h3>
+                <p>В наличии</p>
+                <p>Под заказ</p>
+            </div>
+            <div class="sidebar-note">Помогаем выбрать технику для учёбы, работы и отдыха.</div>
+        </aside>
+
+        <main class="main" id="catalog">
+            <div class="intro">
+                <p class="eyebrow">Магазин электроники</p>
+                <h1>Техника, которая упрощает жизнь</h1>
+                <p>Подобрали полезные устройства на каждый день. Выбирайте подходящий вариант.</p>
+            </div>
+
+            <section class="catalog" aria-label="Каталог товаров">
+                <article class="card card-featured" id="offers">
+                    <div class="product-art art-phone"><span>SMARTPHONE</span><strong>01</strong></div>
+                    <div class="card-content">
+                        <span class="tag">Товар дня · скидка 20%</span>
+                        <h2>Смартфон Nova X</h2>
+                        <p>Яркий экран, хорошая камера и ёмкий аккумулятор. Подходит для общения, фото и повседневных задач.</p>
+                        <div class="buy-row"><strong class="price">31 990 ₽ <del>39 990 ₽</del></strong><a class="buy-button" href="#contacts">Выбрать</a></div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="product-art art-laptop"><span>LAPTOP</span><strong>02</strong></div>
+                    <div class="card-content">
+                        <span class="tag">Для учёбы</span>
+                        <h2>Ноутбук Air 14</h2>
+                        <p>Лёгкий ноутбук для документов, учёбы и работы в интернете.</p>
+                        <div class="buy-row"><strong class="price">54 990 ₽</strong><a class="buy-button" href="#contacts">Выбрать</a></div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="product-art art-headphones"><span>HEADPHONES</span><strong>03</strong></div>
+                    <div class="card-content">
+                        <span class="tag">Популярное</span>
+                        <h2>Наушники Wave</h2>
+                        <p>Беспроводная модель с мягкими амбушюрами и чистым звуком.</p>
+                        <div class="buy-row"><strong class="price">6 490 ₽</strong><a class="buy-button" href="#contacts">Выбрать</a></div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="product-art art-watch"><span>SMART WATCH</span><strong>04</strong></div>
+                    <div class="card-content">
+                        <span class="tag">Новинка</span>
+                        <h2>Часы Pulse</h2>
+                        <p>Удобные уведомления, таймер и полезные функции на запястье.</p>
+                        <div class="buy-row"><strong class="price">8 990 ₽</strong><a class="buy-button" href="#contacts">Выбрать</a></div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="product-art art-speaker"><span>SPEAKER</span><strong>05</strong></div>
+                    <div class="card-content">
+                        <span class="tag">Для дома</span>
+                        <h2>Колонка Mini</h2>
+                        <p>Компактная колонка для музыки дома и на прогулке.</p>
+                        <div class="buy-row"><strong class="price">3 990 ₽</strong><a class="buy-button" href="#contacts">Выбрать</a></div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="product-art art-tablet"><span>TABLET</span><strong>06</strong></div>
+                    <div class="card-content">
+                        <span class="tag">Универсальный</span>
+                        <h2>Планшет Tab 10</h2>
+                        <p>Большой экран для чтения, видео и заметок.</p>
+                        <div class="buy-row"><strong class="price">19 990 ₽</strong><a class="buy-button" href="#contacts">Выбрать</a></div>
+                    </div>
+                </article>
+            </section>
+
+            <section class="about" id="about">
+                <p class="eyebrow">Почему мы</p>
+                <h2>Покупать технику просто</h2>
+                <div class="benefits">
+                    <div><strong>01</strong><h3>Понятный выбор</h3><p>Кратко рассказываем о главных возможностях устройств.</p></div>
+                    <div><strong>02</strong><h3>Гарантия</h3><p>На товары действует гарантия производителя.</p></div>
+                    <div><strong>03</strong><h3>Поддержка</h3><p>Поможем подобрать устройство под ваши задачи.</p></div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="contacts">
+            <span>© 2026 ТЕХНИКА</span>
+            <span>Вопросы и заказы: hello@technika.example · +7 (900) 000-00-00</span>
+        </footer>
+    </div>
+</body>
+</html>
